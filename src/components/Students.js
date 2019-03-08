@@ -8,6 +8,7 @@ const Students = (props) => {
       {props.names.map((name, index) => (
         <p key={index}>{name}</p>
       ))}
+
     </div>
   );
 };
