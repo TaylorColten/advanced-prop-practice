@@ -32,11 +32,11 @@ const App = () => {
       {/* pass SuperComponent the string: "goodbye world" in a prop called "message" */}
       <SuperComponent message="goodbye world" />
       {/* pass SuperComponent the string: "Props are awesome world" in a prop called "message" */}
-
+       <SuperComponent message="props are awesome world" />
       {/* pass SuperComponent the number: 42 in a prop called "magicNumber" */}
-
+       <SuperComponent magicNumber={42} />
       {/* pass SuperComponent the number: 21 in a prop called "magicNumber" */}
-
+       <SuperComponent magicNumber={21} />
       {/*
         What have we seen here? This "SuperComponent" takes multiple 
         props and simply displays the content for whichever prop was passed in. 
