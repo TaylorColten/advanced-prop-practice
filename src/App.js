@@ -30,7 +30,7 @@ const App = () => {
       {/* pass SuperComponent the string: "hello word" in a prop called "message"*/}
       <SuperComponent message="hello world" />
       {/* pass SuperComponent the string: "goodbye world" in a prop called "message" */}
-
+      <SuperComponent message="goodbye world" />
       {/* pass SuperComponent the string: "Props are awesome world" in a prop called "message" */}
 
       {/* pass SuperComponent the number: 42 in a prop called "magicNumber" */}
