@@ -45,7 +45,7 @@ const App = () => {
       */}
 
       {/* pass the Students component an array of names in a prop called "names" */}
-      
+      <Students names={['Taylor','Miles','Jim','Becky']} />
       {/* 
         Go into the Students component and take a look at is. What's it doing?
         Try using the Students component again without the names prop. What happens? 
