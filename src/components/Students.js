@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 const Students = (props) => {
   return (
     <div>
+      <h2>{props.groupName}</h2>
       <h3>The students are:</h3>
       {props.names.map((name, index) => (
         <p key={index}>{name}</p>
