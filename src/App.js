@@ -45,21 +45,20 @@ const App = () => {
       */}
 
       {/* pass the Students component an array of names in a prop called "names" */}
-      <Students names={['Taylor','Miles','Jim','Becky']}
-      groupName="my peeps" />
+      <Students names={names} />
 
       {/* 
         Go into the Students component and take a look at is. What's it doing?
         Try using the Students component again without the names prop. What happens? 
         Delete this one after
       */}
-
+       
       {/*
         Go into the Students component and add support for an optional prop
         called "groupName". Send a string of your choice and display it above 
         the list of students
       */}
-
+      <Students names={names} groupName="my peeps" />
       {/*
         The Students component should have showed us how to use props that 
         are optional and required, as well as practice passing multiple props.
